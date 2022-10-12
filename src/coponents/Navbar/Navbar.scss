@@ -1,0 +1,13 @@
+@import '../../scss/varibles'; 
+
+.navbar{
+    background-color: $cardNavBgColor;
+    display: flex;
+    justify-content: space-evenly;
+
+    a{
+        color: $backgroundColor;
+        text-decoration: none;
+        font-size: 2rem;
+    }
+}
